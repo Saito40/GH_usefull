@@ -1,6 +1,5 @@
 
 Par = ghenv.Component.Params
-#ghenv.Component.Params.Input[0].Contains
 gp = Par.Input[0].Sources[0]
 print(gp.Minimum)
 print(gp.Maximum)
