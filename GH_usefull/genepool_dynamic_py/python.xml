@@ -99,7 +99,6 @@
                   <items count="12">
                     <item name="CodeInput" type_name="gh_string" type_code="10">
 Par = ghenv.Component.Params
-#ghenv.Component.Params.Input[0].Contains
 gp = Par.Input[0].Sources[0]
 print(gp.Minimum)#.VolatileData
 print(gp.Maximum)
