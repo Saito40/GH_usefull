@@ -1,3 +1,4 @@
 # Gene Pool Dynamic python
-これは、Gene Poolをpythonで動的に変更できるものです。
-更新後はrecomputedさせてください
+これは、Gene Poolをpythonで動的に変更できるものです。\
+~~更新後はRecomputeさせてください~~\
+ReconにつながるボタンでGenePoolがRecomputeします。
