@@ -19,11 +19,8 @@ def NurbCrv(P, W, K):
     n = 3
     P_ = List[Point3d]()
     for p in P: P_.Add(Point3d(p[0], p[1], p[1]))
-    # print(rhino3dm.NurbsCurve.Create(False, n, P_))
     nc = NurbsCurve.Create(False, n, P_)
     for i in range(len(P)):
-        # print(ControlPoint(P_[i], W[i]))
-        # nc.Points = NurbsCurve.Points()
         cp = ControlPoint()
         cp.X = P[i][0]
         cp.Y = P[i][1]
