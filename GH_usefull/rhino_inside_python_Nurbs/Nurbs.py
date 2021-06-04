@@ -21,11 +21,11 @@ def NurbCrv(P, W, K):
     for p in P: P_.Add(Point3d(p[0], p[1], p[1]))
     nc = NurbsCurve.Create(False, n, P_)
     for i in range(len(P)):
-        cp = ControlPoint()
-        cp.X = P[i][0]
-        cp.Y = P[i][1]
-        cp.Z = P[i][2]
-        cp.W = W[i]
+        # cp = ControlPoint()
+        # cp.X = P[i][0]
+        # cp.Y = P[i][1]
+        # cp.Z = P[i][2]
+        # cp.W = W[i]
         w = System.Double(W[i])
         cp = ControlPoint(P[i][0], P[i][1], P[i][2], w)
         nc.Points[i] = cp
