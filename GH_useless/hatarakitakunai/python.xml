@@ -22,7 +22,7 @@
       <chunks count="5">
         <chunk name="DocumentHeader">
           <items count="5">
-            <item name="DocumentID" type_name="gh_guid" type_code="9">7815ab64-076e-42ba-a047-279dedaf9c7b</item>
+            <item name="DocumentID" type_name="gh_guid" type_code="9">cd4a1c7d-a984-45c4-9338-8734500c7804</item>
             <item name="Preview" type_name="gh_string" type_code="10">Shaded</item>
             <item name="PreviewMeshType" type_name="gh_int32" type_code="3">1</item>
             <item name="PreviewNormal" type_name="gh_drawing_color" type_code="36">
@@ -35,7 +35,7 @@
         </chunk>
         <chunk name="DefinitionProperties">
           <items count="3">
-            <item name="Date" type_name="gh_date" type_code="8">637585430416923566</item>
+            <item name="Date" type_name="gh_date" type_code="8">637585435938870859</item>
             <item name="Description" type_name="gh_string" type_code="10"></item>
             <item name="Name" type_name="gh_string" type_code="10"></item>
           </items>
@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>-25</X>
-                  <Y>74</Y>
+                  <X>10</X>
+                  <Y>10</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">1.17647052</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">1</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -103,7 +103,6 @@ px = ghenv.Component.Params.Input[0]
 def func(dmy):
     for s in px.Sources:
         px.RemoveSource(px.Sources[0])
-        px.ExpireSolution(True)
         a = '働きたくないでござる'
 
 doc = ghenv.Component.OnPingDocument()
@@ -121,7 +120,7 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                     <item name="HideInput" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">false</item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">fe51bce4-8776-40e5-8438-08fd799ec471</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">7e043b66-1e08-4661-96b4-57303563fafd</item>
                     <item name="IsAdvancedMode" type_name="gh_bool" type_code="1">false</item>
                     <item name="MarshalOutGuids" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">GhPython Script</item>
@@ -131,14 +130,14 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                     <chunk name="Attributes">
                       <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>315</X>
-                          <Y>125</Y>
+                          <X>325</X>
+                          <Y>135</Y>
                           <W>72</W>
                           <H>58</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>344</X>
-                          <Y>154</Y>
+                          <X>354</X>
+                          <Y>164</Y>
                         </item>
                         <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
@@ -156,7 +155,7 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                           <items count="10">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">The x script variable</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">aac4dcfb-3421-47d3-b9cf-264d9d10956e</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7595abf3-878d-487e-88cc-14e3cbc139cd</item>
                             <item name="Name" type_name="gh_string" type_code="10">x</item>
                             <item name="NickName" type_name="gh_string" type_code="10">x</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -169,14 +168,14 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                             <chunk name="Attributes">
                               <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>317</X>
-                                  <Y>127</Y>
+                                  <X>327</X>
+                                  <Y>137</Y>
                                   <W>12</W>
                                   <H>54</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>324.5</X>
-                                  <Y>154</Y>
+                                  <X>334.5</X>
+                                  <Y>164</Y>
                                 </item>
                                 <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
@@ -186,7 +185,7 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                         <chunk name="OutputParam" index="0">
                           <items count="6">
                             <item name="Description" type_name="gh_string" type_code="10">The execution information, as output and error streams</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">daa2f534-1a1b-4900-9edd-58537d5c03c4</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e525a918-cf6f-4d37-ae21-e3238e557b1f</item>
                             <item name="Name" type_name="gh_string" type_code="10">out</item>
                             <item name="NickName" type_name="gh_string" type_code="10">out</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -196,14 +195,14 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                             <chunk name="Attributes">
                               <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>359</X>
-                                  <Y>127</Y>
+                                  <X>369</X>
+                                  <Y>137</Y>
                                   <W>26</W>
                                   <H>27</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>372</X>
-                                  <Y>140.5</Y>
+                                  <X>382</X>
+                                  <Y>150.5</Y>
                                 </item>
                                 <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
@@ -213,7 +212,7 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                         <chunk name="OutputParam" index="1">
                           <items count="6">
                             <item name="Description" type_name="gh_string" type_code="10">Script output a.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b564246d-a4d9-442a-92d0-ee0b5fd353ac</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">270c4307-6856-49cf-a59a-c5ea68f48d9e</item>
                             <item name="Name" type_name="gh_string" type_code="10">a</item>
                             <item name="NickName" type_name="gh_string" type_code="10">a</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -223,14 +222,14 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                             <chunk name="Attributes">
                               <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>359</X>
-                                  <Y>154</Y>
+                                  <X>369</X>
+                                  <Y>164</Y>
                                   <W>26</W>
                                   <H>27</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>372</X>
-                                  <Y>167.5</Y>
+                                  <X>382</X>
+                                  <Y>177.5</Y>
                                 </item>
                                 <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
@@ -252,7 +251,7 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                 <chunk name="Container">
                   <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Numeric slider for single values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">b0681f90-b8c7-40ef-adf8-4f2ac4dbd805</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">699c76b5-f948-40f8-82f4-5ef7af5d97b5</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -262,14 +261,14 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                     <chunk name="Attributes">
                       <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>53</X>
-                          <Y>14</Y>
+                          <X>63</X>
+                          <Y>24</Y>
                           <W>160</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>53.14148</X>
-                          <Y>14.92191</Y>
+                          <X>63.14148</X>
+                          <Y>24.92191</Y>
                         </item>
                         <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
@@ -298,7 +297,7 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                 <chunk name="Container">
                   <items count="8">
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">cb283ef4-516b-4a2e-bac7-649b79c87b35</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">a9ed04de-8baf-4354-92c7-fdefd84bdac0</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
                     <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -310,8 +309,8 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                     <chunk name="Attributes">
                       <items count="6">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>53</X>
-                          <Y>65</Y>
+                          <X>63</X>
+                          <Y>75</Y>
                           <W>160</W>
                           <H>100</H>
                         </item>
@@ -319,8 +318,8 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>53.20398</X>
-                          <Y>65.23441</Y>
+                          <X>63.20398</X>
+                          <Y>75.23441</Y>
                         </item>
                         <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
@@ -359,7 +358,7 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                 <chunk name="Container">
                   <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of three-dimensional points</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">76bf60b4-f212-45e7-8610-e8caffdacc07</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">11165d86-d3cb-4fcf-a829-4d7869394250</item>
                     <item name="Name" type_name="gh_string" type_code="10">Point</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Pt</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -369,14 +368,14 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                     <chunk name="Attributes">
                       <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>162</X>
-                          <Y>202</Y>
+                          <X>172</X>
+                          <Y>212</Y>
                           <W>50</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>187.5325</X>
-                          <Y>212.4021</Y>
+                          <X>197.5325</X>
+                          <Y>222.4021</Y>
                         </item>
                         <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
@@ -419,12 +418,12 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                 <chunk name="Container">
                   <items count="9">
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">651cec42-30fb-4bd2-9646-cbf4f537edc8</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">cb715e59-cea1-40ee-afbb-78b2fb2d85b8</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
                     <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
-                    <item name="Source" index="0" type_name="gh_guid" type_code="9">b564246d-a4d9-442a-92d0-ee0b5fd353ac</item>
+                    <item name="Source" index="0" type_name="gh_guid" type_code="9">270c4307-6856-49cf-a59a-c5ea68f48d9e</item>
                     <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                     <item name="UserText" type_name="gh_string" type_code="10">Double click to edit panel content…</item>
                   </items>
@@ -432,8 +431,8 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                     <chunk name="Attributes">
                       <items count="6">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>433</X>
-                          <Y>104</Y>
+                          <X>443</X>
+                          <Y>114</Y>
                           <W>160</W>
                           <H>100</H>
                         </item>
@@ -441,8 +440,8 @@ ghenv.LocalScope.doc.ScheduleSolution(1, func)
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>433.6326</X>
-                          <Y>104.2021</Y>
+                          <X>443.6326</X>
+                          <Y>114.2021</Y>
                         </item>
                         <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
