@@ -1,6 +1,11 @@
 
 px = ghenv.Component.Params.Input[0]
-for s in px.Sources:
-    px.RemoveSource(px.Sources[0])
-    px.ExpireSolution(True)
-    a = '働きたくないでござる'
+
+def func(dmy):
+    for s in px.Sources:
+        px.RemoveSource(px.Sources[0])
+        px.ExpireSolution(True)
+        a = '働きたくないでござる'
+
+doc = ghenv.Component.OnPingDocument()
+ghenv.LocalScope.doc.ScheduleSolution(1, func)
