@@ -1,5 +1,4 @@
 import rhinoinside, csv
-# import rhino3dm
 
 import matplotlib.pyplot as plt
 rhinoinside.load('C:\Program Files\Rhino 7\System')
