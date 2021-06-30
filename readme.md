@@ -6,3 +6,6 @@ GH_pythonファイル\
 └*.py - GH_pythonの中身\
 └*.xml - GH上でコピーしたもの。これをGHにコピペすればGH上に出てくる。\
 └readme.md - 説明のファイル
+
+# License
+The source code is licensed MIT.
