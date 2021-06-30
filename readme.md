@@ -11,3 +11,4 @@ GH_pythonファイル\
 
 # License
 The source code is licensed MIT.
+Copyright© 2021, Saito40
